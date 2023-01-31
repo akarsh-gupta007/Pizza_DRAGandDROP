@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <span>
+            <h1 class="main-head">Welcome to Pizza Shop</h1>
+        </span>
+        <span class="links">
+            <a>Home</a>
+            <a>AboutUS</a>
+            <a>ContactUS</a>
+        </span>
+    </nav>
+
+    <div class="pizza_base_Container ">
+        <div class="base11">
+            <img ondragstart="dragstarts(event)" class="basedrag base1img"
+                src="./Base_of_the_pizza/images-removebg-preview.png" alt="base"/>
+        </div>
+        <div class="base22">
+            <img ondragstart="dragstarts(event)" class="basedrag base2img"
+                src="./Base_of_the_pizza/pizza-base-bread-250x250-removebg-preview.png" alt="base">
+        </div>
+
+        <h2>Please select any one pizza base from above</h2>
+    </div>
+
+    <div class="pizza_maker_plate" ondrop="drop(event)" ondragover="allowdrop(event)">
+
+    </div>
+
+    <div id="ingredient_container">
+        <h3>Add the ingredients for Pizza</h3>
+
+        <div id="list">
+            <figure>
+                <img width="70px" class="topings" id="drag2" ondragstart="dragstarts(event)"
+                    src="/chatpata-paneer-pizza-removebg-preview (3).png" alt="Panner">
+                <figcaption>Panner</figcaption>
+            </figure>
+            <figure>
+                <img width="70px" class="topings" id="drag3" ondragstart="dragstarts(event)"
+                    src="./Capsicum_added/images-removebg-preview.png" alt="Capsicum">
+                <figcaption>Capsicum</figcaption>
+            </figure>
+
+            <figure>
+                <img width="70px" class="topings" id="drag4" ondragstart="dragstarts(event)"
+                    src="./Final_Pizza/images-removebg-preview.png" alt="Cheese">
+                <figcaption>Cheese</figcaption>
+            </figure>
+        </div>
+        <div class="finalpizzahiden">
+           
+            <img width="70px"src="./Final_Pizza/images-removebg-preview.png" alt="Cheese">
+           
+        </div>
+        <button onclick="submitbtn()">Send for Coking</button>
+    </div>
+
+<div id="data">
+
+</div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
+

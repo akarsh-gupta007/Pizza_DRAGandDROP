@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+    height: 744px;
+    background-image: linear-gradient(pink, pink, rgba(30, 143, 255, 0.726));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pizza_base_Container {
+    text-align: center;
+}
+
+.links {
+    clear: both;
+    float: right;
+}
+
+a {
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: 800;
+    /* background-color: antiquewhite; */
+}
+
+.main-head {
+    display: inline;
+    font-size: 40px;
+    color: white;
+}
+
+nav {
+    padding: 20px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+
+.base11 {
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: inline-block;
+    /* gap: 120px; */
+    box-shadow: 0px 0px 5px grey;
+  
+
+}
+
+.base22 {
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: inline-block;
+    /* gap: 120px; */
+    box-shadow: 0px 0px 5px grey;
+    margin-left: 50px;
+}
+
+.base1img {
+    width: 100px;
+    height: 100px;
+}
+
+.base2img {
+    width: 100px;
+    ;
+    height: 100px;
+    ;
+}
+
+.base3img {
+    width: 70px;
+    height: 70px;
+}
+
+.pizza_maker_plate {
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px dotted grey;
+    box-shadow: 0px 0px 10px grey;
+
+}
+
+.hide {
+    display: none;
+}
+
+.pizza_base_Container2 {
+    /* display: none; */
+    visibility: hidden;
+}
+#list {
+    transition: all 2s;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.topings {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+#ingredient_container {
+    text-align: center;
+    display: none;
+
+}
+
+footer {
+    padding: 10px;
+    margin-top: 150px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+button{
+    border: none;
+    box-shadow: 0px 0px 5px rgb(12, 10, 10);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.finalpizzahiden{
+    display:none;
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+    .Main_head {
+        /* float: left; */
+        /* font-size:50px; */
+        /* text-align: center; */
+        color: white;
+        margin: 0px;
+        /* padding: 10px; */
+
+        text-shadow: 2px 2px 5px rgba(0, 0, 255, 0.389);
+    }
+    a {
+        display: none;
+    }
+
+}
